@@ -18,7 +18,6 @@ multi_user_request = [
     "Looking for a sports bar to watch the game with craft beer",
     "Want a quiet coffee shop with WiFi to work",
     "Find me a rooftop bar with cocktails and city views",
-    "I want to go to a farmers market to buy some fresh produce"
 ]
 
 # Your venues database

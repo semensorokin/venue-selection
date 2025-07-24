@@ -13,3 +13,7 @@ class UserQuery:
     atmosphere: Optional[str] = None
     rating_min: Optional[float] = None
 
+@dataclass
+class UserQueryAI(UserQuery):
+    place_name: Optional[str] = None
+    place_location: Optional[str] = None # Town | City | Country | Street | Address
