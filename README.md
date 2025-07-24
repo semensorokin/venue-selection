@@ -35,19 +35,19 @@ A Python tool for matching user requests to the best venues (restaurants, bars, 
 
 ### Expected Output 
 ```
-User request: I want to go to a farmers market to buy some fresh produce
+User request: I need a romantic restaurant with good wine for dinner
 1. Le Bernardin Moderne (['restaurant'])
    Rating: 4.9/5.0
-   Match Score: 24.5
+   Match Score: 54.5
    Description: Michelin-starred French restaurant specializing in exquisite seafood preparations. Features a tastin...
-2. Garden Pavilion Events (['celebration_place'])
-   Rating: 4.8/5.0
-   Match Score: 24.0
-   Description: Elegant outdoor wedding and event venue surrounded by manicured gardens and a charming gazebo. Perfe...
-3. The Hidden Library (['speakeasy'])
-   Rating: 4.8/5.0
-   Match Score: 24.0
-   Description: Secret speakeasy hidden behind a bookshelf in an antique bookstore. Prohibition-era cocktails served...
+2. Vintage Cellar (['wine_bar'])
+   Rating: 4.6/5.0
+   Match Score: 53.0
+   Description: Intimate wine bar specializing in old-world wines with an extensive collection from small vineyards....
+3. The Grape & Grain (['wine_bar', 'restaurant'])
+   Rating: 4.5/5.0
+   Match Score: 52.5
+   Description: Wine bar and bistro featuring natural wines and farm-to-table cuisine. Cozy atmosphere with exposed ...
 ```
 
 ## Example Output
