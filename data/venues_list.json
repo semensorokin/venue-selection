@@ -4,7 +4,9 @@
       "name": "The Gilded Falcon",
       "description": "An upscale cocktail lounge featuring craft cocktails in an Art Deco setting. Known for their extensive whiskey collection and live jazz performances on weekends.",
       "meal": ["Oysters - $18", "Charcuterie Board - $24", "Truffle Fries - $16"],
+      "meal_types": ["appetizer", "main course", "dessert"],
       "drinks": ["Old Fashioned - $16", "Negroni - $14", "House Manhattan - $18", "Champagne by glass - $12"],
+      "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
       "rating": 4.7,
       "reviews": [
         {"text": "Incredible atmosphere and expertly crafted cocktails. The jazz music really sets the mood.", "stars_number": 5.0},
@@ -18,7 +20,9 @@
       "name": "Mama Rosa's Trattoria",
       "description": "Family-owned Italian restaurant serving authentic recipes passed down through generations. Cozy atmosphere with checkered tablecloths and wine bottle candles.",
       "meal": ["Spaghetti Carbonara - $18", "Margherita Pizza - $16", "Osso Buco - $28", "Tiramisu - $8"],
+      "meal_types": ["appetizer", "main course", "dessert"],
       "drinks": ["Chianti Classico - $9", "Limoncello - $7", "Italian Soda - $4"],
+      "drink_types": ["wine", "beer", "other"],
       "rating": 4.5,
       "reviews": [
         {"text": "Best Italian food outside of Italy! The pasta is made fresh daily.", "stars_number": 5.0},
@@ -32,7 +36,9 @@
       "name": "Roast & Toast Coffee Co.",
       "description": "Artisanal coffee roastery with exposed brick walls and vintage furniture. They roast their own beans and offer coffee cupping sessions on Saturdays.",
       "meal": ["Avocado Toast - $12", "Breakfast Burrito - $9", "Danish Pastry - $5"],
+      "meal_types": ["dessert"],
       "drinks": ["Pour Over Coffee - $5", "Cortado - $4.50", "Cold Brew - $4", "Matcha Latte - $5.50"],
+      "drink_types": ["coffee", "tea", "other"],
       "rating": 4.3,
       "reviews": [
         {"text": "Coffee enthusiast's paradise. The single origin beans are exceptional.", "stars_number": 5.0},
@@ -47,6 +53,8 @@
       "description": "High-energy nightclub with state-of-the-art sound system and LED light shows. Features top DJs and themed nights throughout the week.",
       "meal": [],
       "drinks": ["Premium Bottle Service - $300", "Vodka Red Bull - $12", "House Special - $10", "Champagne Spray - $200"],
+      "meal_types": [],
+      "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
       "rating": 4.1,
       "reviews": [
         {"text": "Amazing light show and great music. Dance floor gets packed!", "stars_number": 4.0},
@@ -60,7 +68,9 @@
       "name": "Garden Pavilion Events",
       "description": "Elegant outdoor wedding and event venue surrounded by manicured gardens and a charming gazebo. Perfect for ceremonies and receptions.",
       "meal": ["Wedding Package A - $85/person", "Cocktail Hour Package - $25/person", "Dessert Table - $15/person"],
+      "meal_types": ["main course", "dessert"],
       "drinks": ["Open Bar Package - $45/person", "Wine Service - $25/person"],
+      "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
       "rating": 4.8,
       "reviews": [
         {"text": "Dream wedding venue! The gardens are absolutely beautiful.", "stars_number": 5.0},
@@ -74,7 +84,9 @@
       "name": "Hoppy Trails Brewing",
       "description": "Local microbrewery offering house-made craft beers and hearty pub food. Features a rustic interior with communal tables and brewery tours.",
       "meal": ["Beer Battered Fish & Chips - $16", "Loaded Nachos - $14", "BBQ Pulled Pork Sandwich - $13"],
+      "meal_types": ["main course", "dessert"],
       "drinks": ["IPA Flight - $12", "Stout - $6", "Seasonal Wheat - $5", "Root Beer (house-made) - $4"],
+      "drink_types": ["beer", "other"],
       "rating": 4.4,
       "reviews": [
         {"text": "Great selection of beers and the food pairs perfectly!", "stars_number": 4.0},
@@ -88,7 +100,9 @@
       "name": "Vintage Cellar",
       "description": "Intimate wine bar specializing in old-world wines with an extensive collection from small vineyards. Candlelit atmosphere with stone walls.",
       "meal": ["Cheese & Wine Pairing - $28", "Smoked Salmon Plate - $22", "Chocolate Tasting - $16"],
+      "meal_types": [],
       "drinks": ["Bordeaux by glass - $15", "Vintage Port - $18", "Wine Flight - $20", "Champagne - $12"],
+      "drink_types": ["wine", "champagne", "other"],
       "rating": 4.6,
       "reviews": [
         {"text": "Wine selection is incredible. Staff really knows their stuff.", "stars_number": 5.0},
@@ -102,7 +116,9 @@
       "name": "Sakura Sushi Palace",
       "description": "Authentic Japanese sushi restaurant with a traditional sushi bar and private tatami rooms. Fresh fish flown in daily from Japan.",
       "meal": ["Omakase - $85", "Chirashi Bowl - $24", "Miso Ramen - $16", "Tempura Udon - $18"],
+      "meal_types": ["main course", "dessert"],
       "drinks": ["Sake Flight - $18", "Japanese Whiskey - $15", "Green Tea - $3", "Plum Wine - $8"],
+      "drink_types": ["wine", "beer", "other"],
       "rating": 4.7,
       "reviews": [
         {"text": "Best sushi in the city! The omakase is worth every penny.", "stars_number": 5.0},
@@ -116,7 +132,9 @@
       "name": "The End Zone",
       "description": "Classic sports bar with multiple big screens, pool tables, and dart boards. Known for their buffalo wings and game day specials.",
       "meal": ["Buffalo Wings - $12", "Loaded Potato Skins - $9", "Bacon Cheeseburger - $14", "Nachos Supreme - $11"],
+      "meal_types": ["main course", "dessert"],
       "drinks": ["Draft Beer - $4", "Pitcher of Beer - $16", "Game Day Shot - $5", "Bloody Mary - $8"],
+      "drink_types": ["beer"],
       "rating": 4.2,
       "reviews": [
         {"text": "Perfect spot to watch the game with friends. Wings are amazing!", "stars_number": 4.0},
@@ -130,7 +148,9 @@
       "name": "Sky High Lounge",
       "description": "Sophisticated rooftop bar on the 20th floor offering panoramic city views. Features craft cocktails and small plates with modern decor.",
       "meal": ["Truffle Flatbread - $16", "Tuna Tartare - $18", "Slider Trio - $15"],
+      "meal_types": ["appetizer", "dessert"],
       "drinks": ["Signature Skyline Martini - $16", "Craft Beer - $8", "Wine by glass - $10", "Champagne Cocktail - $14"],
+      "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
       "rating": 4.5,
       "reviews": [
         {"text": "Stunning views of the city! Perfect for special occasions.", "stars_number": 5.0},
@@ -143,7 +163,9 @@
     "name": "Golden Crust Bakehouse",
     "description": "European-style bakery and café known for artisanal breads, pastries, and single-origin coffee. Features a wood-fired oven and serves breakfast all day.",
     "meal": ["Croissant - $3.50", "Sourdough Loaf - $8", "Quiche Lorraine - $9", "Almond Danish - $4", "Breakfast Sandwich - $7.50", "Fresh Fruit Tart - $6"],
+    "meal_types": ["dessert"],
     "drinks": ["Espresso - $2.50", "Cappuccino - $4", "French Press - $5"],
+    "drink_types": ["coffee", "tea", "other"],
     "rating": 4.6,
     "reviews": [
       {"text": "Best croissants outside of Paris! The coffee is excellent too.", "stars_number": 5.0},
@@ -159,7 +181,9 @@
     "name": "Murphy's Last Call",
     "description": "No-frills neighborhood dive bar with sticky floors, neon beer signs, and a jukebox full of classic rock. Cash only establishment with cheap drinks and friendly regulars.",
     "meal": [],
+    "meal_types": [],
     "drinks": ["Budweiser - $3", "Well Whiskey - $4", "PBR - $2.50", "Jager Shot - $3.50", "Bloody Mary - $5"],
+    "drink_types": ["beer", "other"],
     "rating": 3.8,
     "reviews": [
       {"text": "Exactly what you'd expect from a dive bar. Cheap drinks and good people.", "stars_number": 4.0}
@@ -172,7 +196,9 @@
     "name": "Le Bernardin Moderne",
     "description": "Michelin-starred French restaurant specializing in exquisite seafood preparations. Features a tasting menu that changes seasonally with the finest ingredients.",
     "meal": ["7-Course Tasting Menu - $195", "3-Course Prix Fixe - $89", "Lobster Thermidor - $65", "Bouillabaisse - $48", "Cheese Course - $22"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Wine Pairing (7 courses) - $145", "Champagne by glass - $18", "Cognac - $25", "French Wine Selection - $15-45"],
+    "drink_types": ["wine", "champagne", "other"],
     "rating": 4.9,
     "reviews": [
       {"text": "Absolutely exceptional dining experience. Every dish was perfection.", "stars_number": 5.0},
@@ -189,7 +215,9 @@
     "name": "Sing It Loud",
     "description": "High-energy karaoke club with private rooms and a main stage. Features state-of-the-art sound systems, disco lights, and a full bar with themed cocktails.",
     "meal": ["Korean Fried Chicken - $16", "Nachos Grande - $12", "Popcorn Chicken - $8"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Karaoke Superstar (signature cocktail) - $12", "Sake Bomb - $8", "Beer Bucket (6 bottles) - $24", "Soju Shot - $4", "Microphone Martini - $10"],
+    "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
     "rating": 4.3,
     "reviews": [
       {"text": "So much fun! Private rooms are great for shy singers.", "stars_number": 5.0},
@@ -204,7 +232,9 @@
     "name": "Taco Libre Mobile",
     "description": "Authentic Mexican food truck serving street-style tacos, burritos, and fresh salsas. Uses family recipes and sources ingredients from local Mexican markets.",
     "meal": ["Carnitas Taco - $3", "Al Pastor Burrito - $9", "Elote (Mexican Street Corn) - $4", "Quesadilla - $7", "Churros - $5"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Horchata - $3", "Mexican Coke - $2", "Fresh Lime Water - $2.50"],
+    "drink_types": ["beer", "other"],
     "rating": 4.7,
     "reviews": [
       {"text": "Best tacos in the city! Always fresh and authentic.", "stars_number": 5.0},
@@ -220,7 +250,9 @@
     "name": "The Hidden Library",
     "description": "Secret speakeasy hidden behind a bookshelf in an antique bookstore. Prohibition-era cocktails served in vintage glassware with live piano music nightly.",
     "meal": ["Oysters Rockefeller - $16", "Deviled Eggs - $8", "Charcuterie Selection - $20"],
+    "meal_types": ["appetizer", "dessert"],
     "drinks": ["Bee's Knees - $14", "Sidecar - $16", "Gin Rickey - $12", "Manhattan - $15", "Absinthe Service - $20"],
+    "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
     "rating": 4.8,
     "reviews": [
       {"text": "Finding the entrance is half the fun! Cocktails are expertly crafted.", "stars_number": 5.0},
@@ -235,7 +267,9 @@
     "name": "Sunset Tiki Lounge",
     "description": "Beachfront tiki bar with bamboo decor, sand floors, and grass umbrellas. Specializes in tropical cocktails and fresh seafood with ocean views.",
     "meal": ["Fish Tacos - $14", "Coconut Shrimp - $18", "Poke Bowl - $16", "Conch Fritters - $12"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Mai Tai - $10", "Piña Colada - $9", "Blue Hawaii - $8", "Local Beer - $5", "Rum Runner - $11", "Fresh Coconut Water - $6"],
+    "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
     "rating": 4.4,
     "reviews": [
       {"text": "Perfect spot to watch the sunset with a tropical drink in hand.", "stars_number": 5.0},
@@ -249,7 +283,9 @@
     "name": "Midnight Express Diner",
     "description": "Classic 24-hour American diner with red vinyl booths, chrome fixtures, and comfort food served all day. Known for generous portions and friendly service.",
     "meal": ["Stack of Pancakes - $8", "Meatloaf Special - $12", "Apple Pie à la Mode - $6", "Cheeseburger Deluxe - $10", "Chicken & Waffles - $14", "Milkshake - $5"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Coffee (bottomless) - $3", "Fresh Orange Juice - $4", "Chocolate Malt - $6"],
+    "drink_types": ["coffee", "tea", "other"],
     "rating": 4.1,
     "reviews": [
       {"text": "Great late-night spot. Pancakes are fluffy and delicious.", "stars_number": 4.0},
@@ -264,7 +300,9 @@
     "name": "The Grape & Grain",
     "description": "Wine bar and bistro featuring natural wines and farm-to-table cuisine. Cozy atmosphere with exposed brick walls and communal tables.",
     "meal": ["Burrata with Honey - $16", "Duck Confit - $28", "Artisan Cheese Board - $24", "Seasonal Vegetable Risotto - $22"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Natural Wine Flight - $18", "Orange Wine - $12", "Local Cider - $8", "Aperol Spritz - $10"],
+    "drink_types": ["wine", "beer", "other"],
     "rating": 4.5,
     "reviews": [],
     "location": [37.7749, -122.4194]
@@ -275,7 +313,9 @@
     "name": "Smoky Joe's BBQ Pit",
     "description": "Authentic barbecue joint with meats smoked low and slow over hickory wood. Family-owned for three generations with secret sauce recipes.",
     "meal": ["Brisket Platter - $18", "Pulled Pork Sandwich - $12", "Ribs (half rack) - $16", "Burnt Ends - $14", "Mac and Cheese - $6", "Cornbread - $3"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Sweet Tea - $3", "Local Beer - $4", "Lemonade - $3"],
+    "drink_types": ["tea", "beer", "other"],
     "rating": 4.6,
     "reviews": [
       {"text": "Brisket melts in your mouth! Best BBQ sauce I've ever tasted.", "stars_number": 5.0},
@@ -292,7 +332,9 @@
     "name": "Sweet Dreams Creamery",
     "description": "Artisanal ice cream shop making small batches daily with local ingredients. Features unique flavors and house-made waffle cones.",
     "meal": ["Single Scoop - $4", "Banana Split - $12", "Ice Cream Sandwich - $6", "Affogato - $7", "Sundae Special - $9"],
+    "meal_types": ["dessert"],
     "drinks": ["Root Beer Float - $6", "Milkshake - $7", "Italian Soda - $4"],
+    "drink_types": ["beer", "other", "coffee", "tea"],
     "rating": 4.7,
     "reviews": [
       {"text": "Creative flavors that change seasonally. Lavender honey is amazing!", "stars_number": 5.0},
@@ -306,7 +348,9 @@
     "name": "Laugh Track Comedy Club",
     "description": "Intimate comedy venue featuring local and touring comedians. Two-drink minimum with full bar and light snacks available during shows.",
     "meal": ["Wings Basket - $10", "Loaded Fries - $8", "Pretzel Bites - $6"],
+    "meal_types": ["appetizer", "dessert"],
     "drinks": ["House Wine - $8", "Craft Beer - $6", "Comedy Club Special - $9", "Soft Drinks - $4"],
+    "drink_types": ["wine", "beer", "other"],
     "rating": 4.2,
     "reviews": [
       {"text": "Great lineup of comedians. Intimate venue makes it feel personal.", "stars_number": 4.0},
@@ -321,7 +365,9 @@
     "name": "Zen Garden Tea House",
     "description": "Traditional tea house with Japanese garden views, tatami seating areas, and over 100 varieties of loose-leaf teas from around the world.",
     "meal": ["Tea Ceremony Set - $25", "Mochi Platter - $8", "Green Tea Cheesecake - $7", "Bento Box - $15"],
+    "meal_types": ["dessert"],
     "drinks": ["Premium Matcha - $6", "Oolong Tea Service - $8", "Jasmine Phoenix Pearls - $9", "Herbal Blend - $5"],
+    "drink_types": ["tea", "other"],
     "rating": 4.4,
     "reviews": [
       {"text": "Peaceful atmosphere perfect for meditation. Tea quality is exceptional.", "stars_number": 5.0},
@@ -336,7 +382,9 @@
     "name": "The Brass Monkey Gastropub",
     "description": "Upscale pub combining British pub atmosphere with elevated comfort food. Features craft beers on tap and creative takes on classic pub fare.",
     "meal": ["Fish & Chips - $18", "Scotch Egg - $9", "Shepherd's Pie - $16", "Bangers & Mash - $14", "Sticky Toffee Pudding - $8"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Local IPA - $7", "Guinness - $6", "Craft Cider - $6", "Whiskey Flight - $16", "Pimm's Cup - $10"],
+    "drink_types": ["beer", "other"],
     "rating": 4.3,
     "reviews": [
       {"text": "Best fish & chips in town! Great beer selection too.", "stars_number": 4.0},
@@ -350,7 +398,9 @@
     "name": "Arabian Nights Lounge",
     "description": "Middle Eastern-themed hookah lounge with ornate decor, cushioned seating areas, and traditional music. Serves hookah, tea, and Mediterranean small plates.",
     "meal": ["Mezze Platter - $18", "Baklava - $6", "Hummus & Pita - $8", "Stuffed Grape Leaves - $10"],
+    "meal_types": ["appetizer", "dessert"],
     "drinks": ["Mint Tea - $4", "Turkish Coffee - $5", "Hookah Session - $20", "Fresh Juice - $6"],
+    "drink_types": ["tea", "other"],
     "rating": 4.1,
     "reviews": [
       {"text": "Relaxing atmosphere with great hookah flavors. Perfect for groups.", "stars_number": 4.0}
@@ -363,7 +413,9 @@
     "name": "Fresh Squeeze Juice Co.",
     "description": "Health-focused juice bar offering cold-pressed juices, smoothie bowls, and wellness shots. Uses organic produce and offers juice cleanses.",
     "meal": ["Acai Bowl - $12", "Avocado Toast - $9", "Energy Balls - $6", "Chia Pudding - $8"],
+    "meal_types": ["dessert"],
     "drinks": ["Green Goddess Juice - $8", "Immunity Shot - $4", "Protein Smoothie - $10", "Detox Water - $5", "Kombucha - $6"],
+    "drink_types": ["juice", "tea", "other"],
     "rating": 4.4,
     "reviews": [
       {"text": "Fresh and healthy options. The green juice actually tastes good!", "stars_number": 4.0},
@@ -378,7 +430,9 @@
     "name": "Strike Zone Bowling & Bar",
     "description": "Modern bowling alley with cosmic bowling nights, arcade games, and a full-service bar. Features league play and party packages.",
     "meal": ["Bowling Alley Pizza - $16", "Loaded Nachos - $12", "Chicken Tenders - $10", "Pretzel Bites - $7"],
+    "meal_types": ["appetizer", "dessert"],
     "drinks": ["Draft Beer - $5", "Bowling Ball Bomb Shot - $6", "Soda - $3", "Energy Drink - $4"],
+    "drink_types": ["beer", "other"],
     "rating": 3.9,
     "reviews": [
       {"text": "Fun night out with friends. Cosmic bowling is a blast!", "stars_number": 4.0},
@@ -393,7 +447,9 @@
     "name": "The Blind Pig",
     "description": "Prohibition-era speakeasy accessible through a hidden door in a barbershop. Features period-authentic cocktails and upscale American cuisine.",
     "meal": ["Oysters on Half Shell - $18", "Duck Breast - $32", "Bone Marrow - $14", "Chocolate Soufflé - $12"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Rye Whiskey Old Fashioned - $16", "Aviation Gin Cocktail - $14", "Champagne Cocktail - $15", "Sazerac - $17"],
+    "drink_types": ["cocktail", "wine", "beer", "champagne", "other"],
     "rating": 4.7,
     "reviews": [
       {"text": "Incredible attention to detail. Feels like stepping into the 1920s.", "stars_number": 5.0},
@@ -408,7 +464,9 @@
     "name": "Central Market Food Hall",
     "description": "Bustling food hall featuring 15 different vendors serving everything from ramen to tacos. Communal seating with a central bar area.",
     "meal": ["Various vendor options - $8-15", "Artisan Pizza Slice - $4", "Gourmet Burger - $12", "Pho Bowl - $10", "Lobster Roll - $18"],
+    "meal_types": ["main course", "dessert"],
     "drinks": ["Craft Beer - $6", "Local Wine - $8", "Fresh Lemonade - $4", "Coffee - $3"],
+    "drink_types": ["beer", "wine", "other"],
     "rating": 4.2,
     "reviews": [
       {"text": "Something for everyone! Great variety and quality.", "stars_number": 4.0},
@@ -424,7 +482,9 @@
     "name": "The Havana Room",
     "description": "Upscale cigar lounge with leather chairs, humidor room, and premium spirits. Features live jazz on weekends and private smoking rooms.",
     "meal": ["Charcuterie Board - $26", "Beef Sliders - $16", "Chocolate Truffles - $10"],
+    "meal_types": ["appetizer", "dessert"],
     "drinks": ["Cuban Rum - $18", "Whiskey Flight - $22", "Cognac - $25", "Premium Cigar - $35-75", "Port Wine - $12"],
+    "drink_types": ["rum", "whiskey", "cognac", "other"],
     "rating": 4.5,
     "reviews": [
       {"text": "Gentleman's club atmosphere with exceptional cigar selection.", "stars_number": 5.0},
@@ -438,7 +498,9 @@
       "name": "Corner Pocket Billiards",
       "description": "Classic pool hall with 12 regulation tables, vintage neon signs, and a well-stocked bar. Hosts weekly tournaments and league play.",
       "meal": ["Hot Wings - $9", "Burger & Fries - $11"],
+      "meal_types": ["appetizer", "main course"],
       "drinks": ["Draft Beer - $4", "Whiskey Neat - $6", "Pool Shark Special - $8", "Soft Drinks - $2.50"],
+      "drink_types": ["beer", "other"],
       "rating": 4.0,
       "reviews": [
         {"text": "Great tables in excellent condition. Competitive crowd on tournament nights.", "stars_number": 4.0},
@@ -453,7 +515,9 @@
       "name": "Purrfect Cup Cat Café",
       "description": "Unique café where visitors can enjoy coffee while socializing with adoptable rescue cats. All cats are available for adoption through local shelters.",
       "meal": ["Cat-shaped Cookies - $4", "Tuna Melt Sandwich - $8", "Whiskers Wrap - $9"],
+      "meal_types": ["dessert"],
       "drinks": ["Cappuccino - $4.50", "Cat-puccino (decaf) - $3", "Herbal Tea - $3.50", "Milk (various types) - $2"],
+      "drink_types": ["coffee", "tea", "other"],
       "rating": 4.6,
       "reviews": [
         {"text": "So relaxing! The cats are friendly and the coffee is good too.", "stars_number": 5.0},
@@ -470,7 +534,9 @@
       "name": "Pixel Palace",
       "description": "Retro arcade bar featuring classic 80s and 90s video games, pinball machines, and craft cocktails. Free play with drink purchase after 9 PM.",
       "meal": ["Gamer Nachos - $12", "Power-Up Pizza - $14", "Joystick Jalapeño Poppers - $8"],
+      "meal_types": ["appetizer", "dessert"],
       "drinks": ["1-Up IPA - $6", "Pac-Man Punch - $10", "Retro Martini - $9", "Energy Drink - $4", "Nostalgia Cocktail - $11"],
+      "drink_types": ["beer", "cocktail", "other"],
       "rating": 4.4,
       "reviews": [
         {"text": "Brings back childhood memories! Great selection of classic games.", "stars_number": 5.0},
@@ -484,7 +550,9 @@
       "name": "Copper Creek Distillery",
       "description": "Small-batch bourbon distillery offering tours, tastings, and bottle sales. Features a tasting room with views of the production floor.",
       "meal": ["Bourbon Barrel Smoked Salmon - $16", "Distillery Cheese Board - $18"],
+      "meal_types": ["appetizer", "main course", "dessert"],
       "drinks": ["Bourbon Flight - $15", "Single Barrel Selection - $12", "Whiskey Cocktail - $10", "Moonshine Sample - $8"],
+      "drink_types": ["whiskey", "other"],
       "rating": 4.7,
       "reviews": [
         {"text": "Fascinating tour and exceptional bourbon. The master distiller is very knowledgeable.", "stars_number": 5.0},
@@ -499,7 +567,9 @@
       "name": "Knights & Knaves Gaming Café",
       "description": "Board game café with over 500 games available to play. Knowledgeable staff helps recommend games and teaches rules to newcomers.",
       "meal": ["Strategy Sandwich - $9", "Meeple Munchies Platter - $14", "Victory Pizza - $16", "Dice Cookie Set - $5"],
+      "meal_types": ["main course", "dessert"],
       "drinks": ["Critical Hit Coffee - $4", "Mana Potion (energy drink) - $5", "Healing Tea - $3", "Board Game Brew - $6"],
+      "drink_types": ["coffee", "tea", "other"],
       "rating": 4.5,
       "reviews": [
         {"text": "Amazing game selection and staff really knows their stuff. Great for date nights.", "stars_number": 5.0},
@@ -507,226 +577,7 @@
         {"text": "Can get busy on weekends but they take reservations. Love the themed menu.", "stars_number": 4.0}
       ],
       "location": [45.5152, -122.6784]
-    },
-  
-    {
-      "type_of_place": ["strip_club", "bar"],
-      "name": "Velvet Curtain",
-      "description": "Upscale gentlemen's club with multiple stages, VIP rooms, and full bar service. Features nightly entertainment and private parties.",
-      "meal": ["Steak Dinner - $35", "Appetizer Sampler - $18"],
-      "drinks": ["Top Shelf Liquor - $15", "Champagne Bottle - $200", "Beer - $8", "VIP Package - $500"],
-      "rating": 3.7,
-      "reviews": [
-        {"text": "Upscale atmosphere and professional entertainment. Expensive but quality experience.", "stars_number": 4.0}
-      ],
-      "location": [36.1627, -86.7816]
-    },
-  
-    {
-      "type_of_place": ["axe_throwing", "bar"],
-      "name": "Lumber & Lager",
-      "description": "Axe throwing venue with trained instructors, multiple lanes, and craft beer selection. Offers group packages and league play.",
-      "meal": ["Lumberjack Platter - $16", "Campfire S'mores - $8", "Trail Mix - $5"],
-      "drinks": ["Local Craft Beer - $6", "Whiskey Shot - $7", "Lumberjack Lager - $5", "Soda - $3"],
-      "rating": 4.3,
-      "reviews": [
-        {"text": "So much fun! Instructors are patient and safety-focused. Great group activity.", "stars_number": 5.0},
-        {"text": "Unique experience that's surprisingly addictive. Will definitely be back.", "stars_number": 4.0},
-        {"text": "Good for team building events. Beer selection could be better though.", "stars_number": 3.0}
-      ],
-      "location": [39.7392, -104.9903]
-    },
-  
-    {
-      "type_of_place": ["bookstore", "specialty_coffee"],
-      "name": "Chapter & Verse Books",
-      "description": "Independent bookstore with cozy reading nooks, author events, and an in-house café serving fair-trade coffee and homemade pastries.",
-      "meal": ["Author's Scone - $4", "Literary Lunch Sandwich - $8", "Poet's Pie - $6", "Novel Nibbles - $7"],
-      "drinks": ["Fair Trade Coffee - $3.50", "Bookworm Blend - $4", "Earl Grey Tea - $3", "Hot Chocolate - $4"],
-      "rating": 4.8,
-      "reviews": [
-        {"text": "Perfect place to spend an afternoon reading. Great book selection and cozy atmosphere.", "stars_number": 5.0},
-        {"text": "Love supporting independent bookstores. Coffee is excellent and staff recommendations are spot-on.", "stars_number": 5.0},
-        {"text": "Quiet environment perfect for studying or just relaxing with a good book.", "stars_number": 5.0},
-        {"text": "Author events are well-organized and the café food is fresh and tasty.", "stars_number": 4.0}
-      ],
-      "location": [42.3601, -71.0589]
-    },
-  
-    {
-      "type_of_place": ["casino"],
-      "name": "Royal Flush Resort & Casino",
-      "description": "Full-service casino with slot machines, table games, poker room, and multiple restaurants. Features live entertainment and hotel accommodations.",
-      "meal": ["Buffet - $32", "Steakhouse Menu - $45-85", "Sports Bar Food - $12-20"],
-      "drinks": ["Complimentary drinks (while gaming)", "Premium Bar - $12", "Wine List - $8-25"],
-      "rating": 3.9,
-      "reviews": [
-        {"text": "Great gaming selection and comp drinks keep coming. Lost money but had fun!", "stars_number": 4.0},
-        {"text": "Nice resort amenities but gambling can get expensive quickly.", "stars_number": 3.0}
-      ],
-      "location": [36.1699, -115.1398]
-    },
-  
-    {
-      "type_of_place": ["drive_in_theater"],
-      "name": "Starlight Drive-In Cinema",
-      "description": "Classic drive-in movie theater showing double features under the stars. Concession stand offers movie snacks and retro diner food.",
-      "meal": ["Drive-In Burger - $8", "Popcorn (large) - $6", "Hot Dogs - $4", "Candy Selection - $3", "Milkshake - $5"],
-      "drinks": ["Movie Theater Soda - $4", "Coffee - $2", "Slushie - $3"],
-      "rating": 4.2,
-      "reviews": [
-        {"text": "Nostalgic experience! Great for families or romantic dates under the stars.", "stars_number": 5.0},
-        {"text": "Fun throwback to simpler times. Bring blankets and enjoy the show.", "stars_number": 4.0},
-        {"text": "Weather dependent but when conditions are right, it's magical.", "stars_number": 4.0}
-      ],
-      "location": [33.4484, -112.0740]
-    },
-  
-    {
-      "type_of_place": ["art_gallery", "wine_bar"],
-      "name": "Canvas & Cork Gallery",
-      "description": "Contemporary art gallery featuring rotating exhibitions with an integrated wine bar. Hosts artist receptions and wine-tasting events.",
-      "meal": ["Artist's Appetizer Platter - $22", "Gallery Bruschetta - $12"],
-      "drinks": ["Featured Artist Wine - $9", "Sculpture Selection (wine flight) - $16", "Champagne - $11", "Art-inspired Cocktail - $13"],
-      "rating": 4.4,
-      "reviews": [
-        {"text": "Love the combination of art and wine. Great conversation starter for dates.", "stars_number": 4.0},
-        {"text": "Supporting local artists while enjoying good wine. Win-win!", "stars_number": 5.0}
-      ],
-      "location": [34.0522, -118.2437]
-    },
-  
-    {
-      "type_of_place": ["mini_golf"],
-      "name": "Pirate's Cove Adventure Golf",
-      "description": "Themed miniature golf course with pirate ships, waterfalls, and caves. Two 18-hole courses suitable for all ages with a small snack bar.",
-      "meal": ["Treasure Chest Nachos - $7", "Captain's Hot Dog - $4", "Parrot Ice Cream - $3"],
-      "drinks": ["Gatorade - $3", "Soda - $2.50", "Bottled Water - $2"],
-      "rating": 4.1,
-      "reviews": [
-        {"text": "Kids love the pirate theme! Courses are challenging but fair.", "stars_number": 4.0},
-        {"text": "Fun family activity. Well-maintained courses with creative obstacles.", "stars_number": 4.0},
-        {"text": "A bit dated but nostalgic. Good value for entertainment.", "stars_number": 3.0}
-      ],
-      "location": [28.3852, -81.5639]
-    },
-  
-    {
-      "type_of_place": ["meadery"],
-      "name": "Golden Hive Meadery",
-      "description": "Artisanal meadery specializing in traditional and flavored meads made with local honey. Offers tastings and mead education sessions.",
-      "meal": ["Honey Board (cheese & crackers) - $15", "Mead-glazed Salmon - $24"],
-      "drinks": ["Traditional Mead - $8", "Berry Mead - $9", "Mead Flight (4 samples) - $12", "Sparkling Mead - $10"],
-      "rating": 4.3,
-      "reviews": [
-        {"text": "Never tried mead before - this place converted me! Sweet but complex flavors.", "stars_number": 4.0},
-        {"text": "Educational and delicious. The berry mead is fantastic.", "stars_number": 5.0},
-        {"text": "Unique experience but mead isn't for everyone. Worth trying though.", "stars_number": 3.0}
-      ],
-      "location": [44.9537, -93.0900]
-    },
-  
-    {
-      "type_of_place": ["escape_room"],
-      "name": "Mystery Manor Escape Rooms",
-      "description": "Immersive escape room experience with multiple themed rooms including haunted mansion, space station, and bank heist scenarios.",
-      "meal": [],
-      "drinks": ["Bottled Water - $2", "Energy Drink - $4"],
-      "rating": 4.6,
-      "reviews": [
-        {"text": "Incredibly detailed rooms with clever puzzles. The haunted mansion was legitimately scary!", "stars_number": 5.0},
-        {"text": "Great team building activity. Game masters give perfect hints when needed.", "stars_number": 5.0},
-        {"text": "Fun but some puzzles felt a bit obscure. Overall good experience though.", "stars_number": 4.0},
-        {"text": "High production value and immersive themes. Worth the price.", "stars_number": 4.0}
-      ],
-      "location": [41.8781, -87.6298]
-    },
-  
-    {
-      "type_of_place": ["record_store", "bar"],
-      "name": "Vinyl Underground",
-      "description": "Record store and listening bar where customers can browse vinyl while enjoying craft cocktails. Features listening stations and live acoustic sets.",
-      "meal": ["Vinyl Wraps - $9", "Groovy Grilled Cheese - $7"],
-      "drinks": ["45 RPM Cocktail - $11", "LP Lager - $6", "Needle Drop Shot - $5", "Acoustic Ale - $7", "Record Player Punch - $10"],
-      "rating": 4.5,
-      "reviews": [
-        {"text": "Music lover's paradise! Great selection and knowledgeable staff.", "stars_number": 5.0},
-        {"text": "Cool concept combining vinyl shopping with drinks. Found some rare albums here.", "stars_number": 4.0}
-      ],
-      "location": [53.5461, -113.4938]
-    },
-  
-    {
-      "type_of_place": ["food_truck_park"],
-      "name": "Flavor Town Food Truck Park",
-      "description": "Outdoor food truck park featuring 8 rotating food trucks, picnic seating, live music stage, and beer garden with local craft beers.",
-      "meal": ["Various trucks - $8-15", "Korean BBQ Tacos - $10", "Gourmet Grilled Cheese - $8", "BBQ Brisket Sandwich - $12", "Artisan Ice Cream - $5"],
-      "drinks": ["Local Craft Beer - $5", "Food Truck Lemonade - $3", "Iced Coffee - $3", "Wine by glass - $7"],
-      "rating": 4.2,
-      "reviews": [
-        {"text": "Great variety of food options all in one place. Perfect for groups with different tastes.", "stars_number": 4.0},
-        {"text": "Outdoor seating is fun when weather cooperates. Live music adds to the atmosphere.", "stars_number": 4.0},
-        {"text": "Can get crowded during peak hours but worth the wait. Quality varies by truck.", "stars_number": 3.0}
-      ],
-      "location": [30.2672, -97.7431]
-    },
-  
-    {
-      "type_of_place": ["bingo_hall"],
-      "name": "Lucky Numbers Bingo Palace",
-      "description": "Traditional bingo hall with multiple sessions daily, progressive jackpots, and full concession stand. Popular with locals and offers special themed nights.",
-      "meal": ["Bingo Special Hot Dog - $3", "Lucky Nachos - $6", "Winner's Pizza Slice - $4"],
-      "drinks": ["Coffee - $2", "Soda - $2.50", "Bingo Energy Drink - $4"],
-      "rating": 3.8,
-      "reviews": [
-        {"text": "Old school bingo with friendly regulars. Good jackpots and fair games.", "stars_number": 4.0},
-        {"text": "Nostalgic atmosphere but could use some updating. Still fun though.", "stars_number": 3.0}
-      ],
-      "location": [33.7490, -84.3880]
-    },
-  
-    {
-      "type_of_place": ["cider_house"],
-      "name": "Orchard Hill Cider Works",
-      "description": "Farm-to-glass cidery using apples from their own orchard. Rustic taproom with outdoor seating overlooking apple trees and seasonal cider varieties.",
-      "meal": ["Apple & Brie Flatbread - $14", "Pork & Apple Sausage - $12", "Caramel Apple Cheesecake - $7"],
-      "drinks": ["Traditional Dry Cider - $6", "Seasonal Spiced Cider - $7", "Cider Flight - $10", "Apple Brandy - $12", "Non-alcoholic Apple Juice - $3"],
-      "rating": 4.4,
-      "reviews": [
-        {"text": "Beautiful orchard setting and fresh, crisp ciders. The seasonal varieties are creative.", "stars_number": 5.0},
-        {"text": "Great for fall visits when apples are being harvested. Peaceful atmosphere.", "stars_number": 4.0},
-        {"text": "Quality ciders but limited food menu. Focus is definitely on the drinks.", "stars_number": 4.0}
-      ],
-      "location": [44.2619, -72.5806]
-    },
-  
-    {
-      "type_of_place": ["poker_room"],
-      "name": "High Stakes Poker Club",
-      "description": "Private poker room offering cash games and tournaments in various formats. Professional dealers and complimentary food and drinks for players.",
-      "meal": ["Player's Buffet - complimentary", "Midnight Snack Plate - $8"],
-      "drinks": ["Complimentary beverages for players", "Premium Liquor - $10"],
-      "rating": 4.1,
-      "reviews": [
-        {"text": "Well-run games with professional dealers. Good mix of skill levels.", "stars_number": 4.0},
-        {"text": "Comfortable environment and fair rake. Regular tournaments are well-organized.", "stars_number": 4.0}
-      ],
-      "location": [40.7128, -74.0060]
-    },
-  
-    {
-      "type_of_place": ["farmers_market"],
-      "name": "Riverside Farmers Market",
-      "description": "Weekly farmers market featuring local produce, artisanal foods, handmade crafts, and live music. Operating Saturdays from dawn to 2 PM.",
-      "meal": ["Fresh Produce - $2-8", "Artisan Bread - $6", "Local Honey - $12", "Farm Fresh Eggs - $5", "Handmade Tamales - $3"],
-      "drinks": ["Fresh Squeezed Orange Juice - $4", "Local Coffee - $3", "Herbal Tea - $2"],
-      "rating": 4.6,
-      "reviews": [
-        {"text": "Best produce in town! Love supporting local farmers and artisans.", "stars_number": 5.0},
-        {"text": "Great community atmosphere. Kids love the live music and activities.", "stars_number": 4.0},
-        {"text": "Prices are higher than grocery stores but quality is worth it.", "stars_number": 4.0},
-        {"text": "Get there early for best selection. Popular items sell out quickly.", "stars_number": 4.0}
-      ],
-      "location": [45.3311, -121.7113]
-    }
-  ]
+    } 
+]
+
+
